@@ -1,0 +1,57 @@
+﻿This is a simple project intended to get you used to python sockets and the formalities of projects like the readme. This exercise will serve as the foundation for the upcoming programming projects. A sample working client code is given to you in Client.py.  You also have a set of key:value pairs in a file called Pairs.txt . 
+
+
+Your job is to write the corresponding Server code. The goal of the server is to get any string sent to it, and see if it is a key in the Pairs file. If it is it should send back the value, otherwise send back “NOT FOUND”. Lastly it should then close gracefully when the client is done sending strings. A sample output and input file has also been provided. Note that the exact pairs found in Pairs.txt might be different. Also note that the client can only access pairs by sending a message to the server and not directly.
+
+
+How we will test your programs
+------------------------------
+
+
+As part of your submission, you will turn in one program:Server.py and one README file (more on this below). We will be running the
+three programs on the ilab machines with Python 3. Please make sure that they run there, not just on your local computer.
+
+
+Please do not assume that all programs will run on the same machine or that all
+connections are made to the local host.  We might test your
+programs with local and remote socket connections, for example with Client.py,
+And Server.py each running on a different machine. You must
+ensure that the programs can work both across multiple machines and on one machine.
+
+
+The programs must work with the following command lines:
+
+
+python Server.py PORT
+python Client.py SERVERADDRESS PORT
+
+
+An example of this would be:
+python Server.py 5444
+python Client.py vi.cs.rutgers.edu 5444
+
+
+By default the client reads from a file called source_strings.txt and writes to a file called results.txt
+
+
+
+
+README file
+-----------
+
+
+In addition to your programs, you must also submit a README file with clearly
+delineated sections for the following.
+
+
+0. Please write down the full names and netids of both your team members.
+1. Are there known issues or functions that aren't working currently in your
+   attached code? If so, explain. (note that you will get half credit for any reasonably sized bug that is fully explained in the readme)
+3. What problems did you face developing code for this project? Around how long did you spend on this project 
+
+
+Submission
+----------
+
+
+Turn in your project on Sakai assignments.
