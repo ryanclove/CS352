@@ -1,4 +1,4 @@
-0. Antonio Ignarra aji44 and Ryan Coslove rmc326
+0. me and my partner
 
 1. We created two sockets, one to each TS. There was a timeout designated for
 each socket in the event a server went down.
