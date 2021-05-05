@@ -1,0 +1,11 @@
+0. Antonio Ignarra (aji44) and Ryan Coslove
+1. We implemented the recursive client by first establishing a connection to the root DNS seerver.
+Once a query was not in the root servers' DNS table, we recieved the address of the top level DNS
+server. We established this connection, and then for each query onward we first consulted the root
+server, and if the query was not in the root servers' DNS table, we queried the top level server
+which searched its DNS table for the appropriate response.
+2. There are no known issues with the attached code.
+3. While developing, the biggest issue we faced was figuring out the algorithm for the client, and
+how to structure our code to implement a recursive lookup.
+4. We became more familiar with how recursive lookups are implemented and more comfortable with
+socket programming. We also became more familiar with argparse in this project.
