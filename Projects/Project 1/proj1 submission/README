@@ -1,4 +1,4 @@
-0. Antonio Ignarra (aji44) and Ryan Coslove
+0. Me and a partner
 1. We implemented the recursive client by first establishing a connection to the root DNS seerver.
 Once a query was not in the root servers' DNS table, we recieved the address of the top level DNS
 server. We established this connection, and then for each query onward we first consulted the root
