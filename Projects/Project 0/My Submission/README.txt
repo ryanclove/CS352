@@ -1,4 +1,4 @@
-Ryan Coslove rmc326
+my name netID
 
 1. The main error in my code is it iterates several times through, not just once.
 Like in the test case we were given, it runs 4 times and outputs the result 4 times.
