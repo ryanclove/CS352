@@ -1,4 +1,4 @@
-1. Antoino Ignarra aji44 and Ryan Coslove rmc326
+1. me and a partner
 
 2. There are no known bugs/errors.
 
