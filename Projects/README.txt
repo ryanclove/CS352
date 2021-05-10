@@ -6,4 +6,4 @@ Project 1: 100%
 
 Project 2: 90%
 
-Project 3: TBD
+Project 3: 90%
